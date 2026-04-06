@@ -7,7 +7,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from datetime import datetime
 
 # ====== CONFIG ======
-BOT_TOKEN = "os.getenv("BOT_TOKEN")"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/"
 AUTO_REFRESH_INTERVAL = 10
 
